@@ -1,0 +1,28 @@
+package restassuredUtils;
+
+import org.apache.commons.lang3.RandomStringUtils;
+
+public class RestUtils {
+	
+	public static String getid()
+	{
+		String generatedString =RandomStringUtils.randomAlphabetic(1);
+		return("1"+generatedString);
+				
+	}
+	
+	public static String petgetId1()
+	{
+		String generatedString =RandomStringUtils.randomAlphabetic(2);
+		return("1"+generatedString);
+				
+	}
+	
+	public static String petgetId()
+	{
+		String generatedString =RandomStringUtils.randomAlphabetic(2);
+		return("1"+generatedString);
+				
+	}
+	
+}

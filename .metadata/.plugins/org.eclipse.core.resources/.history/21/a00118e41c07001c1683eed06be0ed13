@@ -1,0 +1,49 @@
+package stepdefinations;
+
+import io.cucumber.java.en.Given;
+import org.openqa.selenium.By;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+import static org.testng.Assert.assertTrue;
+
+import java.util.concurrent.TimeUnit;
+
+public class Login {
+	WebDriver driver;
+	@Given("Open Browser")
+	public void open_browser() {
+		  System.out.println("Step1:Open Browser()");
+		  System.setProperty("webdriver.gecko.driver", "C:\\selenium\\geckodriver-v0.29.1-win64\\geckodriver.exe");
+		  driver = new FirefoxDriver();
+		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		 driver.get("http://vmiotspro97:5555/");
+	  
+	}
+
+	@When("User enters valid credentials")
+	public void user_enters_valid_credentials() {
+		  System.out.println("Step2:Enter username and password");
+		  WebElement username= driver.findElement(By.xpath("//*[@id='isac_usernameElementRef']"));
+		  WebElement passwd = driver.findElement(By.xpath("//*[@id='isac_passwordFieldRef']"));
+		  WebElement login=driver.findElement(By.xpath("//button[contains(text(),'Log in')]"));
+		  username.sendKeys("Administrator");
+		  passwd.sendKeys("manage");
+		  
+		  login.click();
+		
+	}
+
+	@Then("Verify for logoff button visible")
+	public void verify_for_logoff_button_visible() {
+		assertTrue(driver.findElement(By.xpath("//*[@id=\"monitor-link\"]")).isDisplayed());
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.346 s <<< FAILURE! - in TestSuite
+testPost(restassuredUtils.restPostTest)  Time elapsed: 2.916 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at restassuredUtils.restPostTest.testPost(restPostTest.java:38)
+

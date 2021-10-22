@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3606" started-at="2021-10-21T20:07:56 IST" finished-at="2021-10-21T20:07:59 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3606" started-at="2021-10-21T20:07:56 IST" finished-at="2021-10-21T20:07:59 IST">
+      <class name="RestAutomation.Demo.restassuredTests">
+        <test-method status="PASS" signature="getwheatherDetails()[pri:0, instance:RestAutomation.Demo.restassuredTests@7d70d1b1]" name="getwheatherDetails" duration-ms="2842" started-at="2021-10-21T20:07:56 IST" finished-at="2021-10-21T20:07:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getwheatherDetails -->
+        <test-method status="PASS" signature="listusers()[pri:0, instance:RestAutomation.Demo.restassuredTests@7d70d1b1]" name="listusers" duration-ms="729" started-at="2021-10-21T20:07:59 IST" finished-at="2021-10-21T20:07:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listusers -->
+      </class> <!-- RestAutomation.Demo.restassuredTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

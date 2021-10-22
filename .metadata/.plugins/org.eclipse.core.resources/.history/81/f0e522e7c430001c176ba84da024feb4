@@ -1,0 +1,20 @@
+package RestAutomation.Demo;
+
+import org.testng.annotations.Test;
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matcher.*;
+
+public class restassuredTests {
+	
+	@Test
+	public void getwheatherDetails()
+	{
+		given()
+		  .when()
+		   .get("https://petstore.swagger.io/v2/pet/findByStatus?status=pending")
+		   .then()
+		      .statusCode(200)
+		      .assertThat().body("name", equalsTo("magna sunt consequat quis"))
+	}
+
+}

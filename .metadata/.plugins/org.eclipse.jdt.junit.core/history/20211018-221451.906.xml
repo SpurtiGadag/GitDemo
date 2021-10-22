@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (1)" project="Automation" tests="4" started="4" failures="0" errors="0" ignored="2">
+  <testsuite name="CucumberOptions.TestRunner" time="0.003">
+    <testsuite name="Feature: Application Login" time="0.003">
+      <testsuite name="Scenario: Home page default Login" time="0.003" incomplete="true">
+        <skipped/>
+        <testcase name="Given User is on landing page" classname="Scenario: Home page default Login" time="0.0"/>
+        <testcase name="When User login into application with username and password" classname="Scenario: Home page default Login" time="0.0"/>
+        <testcase name="Then home page is populated" classname="Scenario: Home page default Login" time="0.0" ignored="true"/>
+        <testcase name="And Cards are displayed" classname="Scenario: Home page default Login" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

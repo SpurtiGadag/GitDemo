@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="isLoginRunner" project="CucumberDemo" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="DemoRunners.isLoginRunner" time="5.225">
+    <testsuite name="Login to IS" time="5.225">
+      <testcase name="Login to IS" classname="Login to IS" time="5.225">
+        <error>java.lang.NullPointerException&#13;
+	at is.isLoginSteps.login_to_integration_server(isLoginSteps.java:26)&#13;
+	at ✽.: Login to Integration Server using http://vmiotspro98:5555/, Administrator, manage(file:///C:/Users/SPKU/eclipse-workspace/CucumberDemo/Features/isLogin.feature:4)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
