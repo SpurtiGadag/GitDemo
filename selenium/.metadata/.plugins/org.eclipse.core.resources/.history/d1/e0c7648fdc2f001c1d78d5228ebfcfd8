@@ -1,0 +1,21 @@
+package coreJavaprac;
+
+import java.util.HashSet;
+
+public class hashSet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Hash Set, Tree Set, LinkedHashset implements Set interface
+		//Does not accept dupicate values
+		//No guarantee on the order the values are stored.
+		
+		HashSet<String> hs=new HashSet<String>(); 
+		hs.add("USA");
+		hs.add("UK");
+		hs.add("India");
+		System.out.println(hs);
+
+	}
+
+}

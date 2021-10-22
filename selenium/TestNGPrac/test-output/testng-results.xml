@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-08T09:46:57 IST" name="Suite" finished-at="2021-10-08T09:46:57 IST" duration-ms="67">
+    <groups>
+    </groups>
+    <test started-at="2021-10-08T09:46:57 IST" name="Test" finished-at="2021-10-08T09:46:57 IST" duration-ms="67">
+      <class name="testNGprac.test2">
+        <test-method signature="loginHome()[pri:0, instance:testNGprac.test2@4944252c]" started-at="2021-10-08T09:46:57 IST" name="loginHome" finished-at="2021-10-08T09:46:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginHome -->
+        <test-method signature="loginPI()[pri:0, instance:testNGprac.test2@4944252c]" started-at="2021-10-08T09:46:57 IST" name="loginPI" finished-at="2021-10-08T09:46:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPI -->
+      </class> <!-- testNGprac.test2 -->
+      <class name="testNGprac.test1">
+        <test-method signature="Test1()[pri:0, instance:testNGprac.test1@68c72235]" started-at="2021-10-08T09:46:57 IST" name="Test1" finished-at="2021-10-08T09:46:57 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method signature="Test2()[pri:0, instance:testNGprac.test1@68c72235]" started-at="2021-10-08T09:46:57 IST" name="Test2" finished-at="2021-10-08T09:46:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+      </class> <!-- testNGprac.test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+import java.util.Arrays;
+import java.util.stream.Stream;
+
+public class streamsExample {
+
+	public static void main(String[] args) {
+		Stream.of("Abhijeeth","Rama","Alekhya","Don","Adam").filter(s->s.startsWith("A")).forEach(s->System.out.println(s));
+		//merging two diff lists
+		List<String> name1=Arrays.asList("Abhijeeth","Rama","Alekhya","Don","Adam");
+		List<String> name=Arrays.asList("Man","Women","Monkey","Bear","Dear");
+		Streams<String> newstream=Stream.concat(null, null)
+
+	}
+
+}

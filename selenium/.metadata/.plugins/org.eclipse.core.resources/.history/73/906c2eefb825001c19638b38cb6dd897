@@ -1,0 +1,10 @@
+import java.util.stream.Stream;
+
+public class streamsExample {
+
+	public static void main(String[] args) {
+		Stream.of("Abhijeeth","Rama","Alekhya","Don","Adam").filter(s->s.startsWith("A")).forEach(s->System.out.println(s));
+
+	}
+
+}

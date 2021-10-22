@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;scrollWebpage&apos; to &apos;scrollWebpageJavascript&apos;&#x0D;&#x0A;- Original project: &apos;FlightBooking&apos;&#x0D;&#x0A;- Original element: &apos;scrollWebpage&apos;&#x0D;&#x0A;- Renamed element: &apos;scrollWebpageJavascript&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;scrollWebpage&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{scrollWebpage.java[scrollWebpage" matchStrategy="1" name="scrollWebpageJavascript" qualified="false" references="true" similarDeclarations="false" stamp="1634473861263" textual="false" version="1.0"/>
+</session>

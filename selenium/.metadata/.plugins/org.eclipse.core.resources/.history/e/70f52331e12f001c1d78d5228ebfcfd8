@@ -1,0 +1,21 @@
+package coreJavaprac;
+
+import java.util.HashMap;
+
+public class hashMapExample {
+	
+	public static void main(String [] args)
+	{
+		HashMap<Integer,String> Hm=new HashMap<Integer,String>();
+		Hm.put(0,"Hello");
+		Hm.put(1,"Hi");
+		Hm.put(2,"Bye");
+		Hm.put(3,"Hello");
+	 System.out.println(Hm.get("Bye"));
+	}
+
+	
+
+	
+
+}

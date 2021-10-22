@@ -1,0 +1,15 @@
+package SAG.E2EProject;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+public class HomePage extends base{
+
+	@Test
+	public void navigation() throws IOException
+	{
+		driver=initializeDriver();
+		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
+	}
+}

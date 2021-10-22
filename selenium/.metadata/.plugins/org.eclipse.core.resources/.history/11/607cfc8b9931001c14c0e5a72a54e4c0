@@ -1,0 +1,55 @@
+
+package sqlTest;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+
+
+
+
+public class jdbcConnector {
+ 
+
+
+
+public static void main(String[] args) throws SQLException, Throwable, IllegalAccessException, ClassNotFoundException
+
+{
+	String URL="jdbc:mysql://localhost:3306/qadbt";
+	String Username = "root";
+	String password = "root";
+	//String port="3306";
+	//Connection con = null;
+   	//Class.forName("com.jdbc.Driver").newInstance();
+       Connection con = DriverManager.getConnection(URL, Username, password);
+       java.sql.PreparedStatement ps=con.prepareStatement("select * from Employeeinfo");
+       System.out.println("Connected to MySQL database");
+    int status=ps.executeUpdate();
+    if(status !=0)
+    {
+    	System.out.println("Suucess");
+    }
+/*Statement  s=con.createStatement();
+ResultSet rs=s.executeQuery("select * from Employeeinfo");
+while (rs.next())
+{
+	System.out.println(rs.getString("name"));
+	System.out.println(rs.getString("id"));
+	System.out.println(rs.getString("location"));
+	System.out.println(rs.getString("age"));
+	
+	
+	
+	
+}*/
+ 
+ 
+ 
+ 
+ 
+ }
+}

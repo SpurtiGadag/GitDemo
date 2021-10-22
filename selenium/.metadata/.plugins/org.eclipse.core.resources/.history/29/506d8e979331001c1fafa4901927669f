@@ -1,0 +1,15 @@
+
+package sqlTest;
+
+import java.sql.DriverManager;
+
+public class jdbcConnector {
+ 
+
+
+public static void main(String[] args)
+ {
+ DriverManager.getConnection("jdbc:mysql://"+host+ ":"+port+"//qadbt","root","Passw0rd@1234")
+ 
+ }
+}

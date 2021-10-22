@@ -1,0 +1,18 @@
+package coreJavaprac;
+
+public class hashMapExample {
+	
+	public static void main(String [] args)
+	{
+		hashMapExample Hm=new hashMapExample();
+		Hm.put(0,"Hello");
+		
+	}
+
+	private void put(int i, String string) {
+		// TODO Auto-generated method stub
+	}
+
+	
+
+}
